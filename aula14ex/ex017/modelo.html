@@ -13,11 +13,17 @@
     </header>
     <section>
         <div>
-            testando...
+            <h2>Bem-vindo à Tabuada!</h2>
+            <p>Digite um número para gerar a tabuada correspondente.</p>
             
         </div>
          <div>
-            ola
+                <label for="numero">Digite um número:</label>
+                <input type="number" id="numero" name="numero">
+                <button onclick="gerarTabuada()">Gerar Tabuada</button>
+        </div>
+        <div>
+             <ul id="tabuada"></ul>
         </div>
     </section>
         <footer>
